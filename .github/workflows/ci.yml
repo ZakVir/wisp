@@ -10,9 +10,16 @@ permissions:
 
 jobs:
   test:
-    runs-on: macos-15
+    # Wisp uses macOS 26 APIs (Liquid Glass), so it needs a runner with the macOS 26 SDK.
+    runs-on: macos-26
     steps:
       - uses: actions/checkout@v4
+      - name: Use the newest Xcode on the runner
+        run: |
+          latest=$(ls -d /Applications/Xcode_*.app 2>/dev/null | sort -V | tail -1)
+          echo "Using $latest"
+          sudo xcode-select -s "$latest/Contents/Developer"
+          xcodebuild -version
       - name: Build and test WispKit
         working-directory: app/Packages/WispKit
         run: |
