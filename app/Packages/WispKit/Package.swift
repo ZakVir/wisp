@@ -11,7 +11,7 @@ let package = Package(
     ],
     dependencies: [
         // On-device streaming speech-to-text (Moonshine v2; MIT; ONNX Runtime compiled in).
-        .package(url: "https://github.com/moonshine-ai/moonshine-swift.git", exact: "0.1.5"),
+        .package(url: "https://github.com/moonshine-ai/moonshine-swift.git", exact: "0.1.6"),
     ],
     targets: [
         // Pure logic: no AppKit, fully unit-testable.
