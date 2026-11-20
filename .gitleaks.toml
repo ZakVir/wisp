@@ -1,0 +1,11 @@
+title = "Wisp secret scanning"
+
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Sparkle's update-signing PUBLIC key (meant to ship inside the app). The private key lives only in the maintainer's Keychain."
+condition = "AND"
+paths = ['''app/project\.yml''']
+regexTarget = "line"
+regexes = ['''SUPublicEDKey:''']

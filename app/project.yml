@@ -1,0 +1,80 @@
+name: Wisp
+options:
+  bundleIdPrefix: com.zakvirani
+  deploymentTarget:
+    macOS: "15.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MACOSX_DEPLOYMENT_TARGET: "15.0"
+    ARCHS: arm64
+    DEVELOPMENT_TEAM: 373GNFYF7D
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_HARDENED_RUNTIME: YES
+    MARKETING_VERSION: "2.10.3"
+    CURRENT_PROJECT_VERSION: "96"
+    # Update feed (Sparkle): empty for Debug, so development builds never "update" themselves to a public release.
+    WISP_APPCAST_URL: ""
+  configs:
+    Release:
+      # Kept by tools/release.sh in the public releases-only repo ZakVir/wisp-updates.
+      WISP_APPCAST_URL: "https://raw.githubusercontent.com/ZakVir/wisp-updates/main/appcast.xml"
+packages:
+  WispKit:
+    path: Packages/WispKit
+  Sparkle:
+    url: https://github.com/sparkle-project/Sparkle
+    exactVersion: 2.10.0
+targets:
+  Wisp:
+    type: application
+    platform: macOS
+    sources:
+      - path: Wisp
+    dependencies:
+      - package: WispKit
+        product: WispMac
+      - package: WispKit
+        product: WispCore
+      - package: Sparkle
+    entitlements:
+      path: Wisp/Wisp.entitlements
+      properties:
+        com.apple.security.device.audio-input: true
+    info:
+      path: Wisp/Info.plist
+      properties:
+        CFBundleDisplayName: Wisp
+        CFBundleName: Wisp
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        LSUIElement: true
+        LSMinimumSystemVersion: "15.0"
+        LSApplicationCategoryType: public.app-category.productivity
+        NSMicrophoneUsageDescription: Wisp listens only while you hold your shortcut, to hear your question. Speech is turned into text on this Mac.
+        NSScreenCaptureUsageDescription: Wisp takes a screenshot only while you hold your shortcut and sends it with your question to the AI you chose, so it can answer about your screen. Wisp doesn't keep it.
+        NSHumanReadableCopyright: Copyright © 2026 Zakir Virani
+        SUFeedURL: $(WISP_APPCAST_URL)
+        # Ed25519 public key; the private half is in the login Keychain (wisp-bench update-key / sign-update).
+        SUPublicEDKey: l1ErfRfmI4xhharKXwsVHctpX5Fi8kIhNzLXYnSESJM=
+        # Check daily and install updates quietly (the owner's choice, 2026-10-02); Sparkle never asks about it.
+        # Only active when WISP_APPCAST_URL is set.
+        SUEnableAutomaticChecks: true
+        SUAutomaticallyUpdate: true
+        SUScheduledCheckInterval: 86400
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.zakvirani.wisp
+        PRODUCT_NAME: Wisp
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ENABLE_USER_SCRIPT_SANDBOXING: YES
+schemes:
+  Wisp:
+    build:
+      targets:
+        Wisp: all
+    run:
+      config: Debug
+    test:
+      config: Debug

@@ -1,0 +1,1236 @@
+{
+ "screens": {
+  "photo": "tools/out/synthetic_ui.png",
+  "claude": "tools/out/identity_test.png",
+  "article": "tools/out/suite_article.png",
+  "signin": "tools/out/suite_signin.png",
+  "calculator": "eval-data/pointing/real-calculator-0.png",
+  "preview": "eval-data/pointing/real-preview-0.png",
+  "disk": "eval-data/pointing/real-diskutility-0.png",
+  "fontbook": "eval-data/pointing/real-fontbook-0.png",
+  "clock": "eval-data/pointing/real-clock-0.png",
+  "dictionary": "eval-data/pointing/real-dictionary-0.png",
+  "web": "eval-data/pointing/syn-003.png",
+  "dialog": "eval-data/pointing/syn-004.png",
+  "sort": "eval-data/pointing/syn-001.png",
+  "icons": "eval-data/pointing/syn-002.png",
+  "files": "eval-data/pointing/syn-005.png",
+  "rename": "eval-data/pointing/syn-006.png",
+  "shop": "eval-data/pointing/syn-008.png",
+  "download": "eval-data/pointing/syn-009.png"
+ },
+ "cases": [
+  {
+   "screen": "photo",
+   "q": "how do i do this",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "photo",
+   "q": "what's that blue thing at the bottom",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "photo",
+   "q": "make it smaller",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "photo",
+   "q": "where do i save it",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "photo",
+   "q": "um how do i get this out of here",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "photo",
+   "q": "can i put this on instagram",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "photo",
+   "q": "what are all these on the left",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "photo",
+   "q": "how do i see my other pictures",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "photo",
+   "q": "i want to cut part of it off",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "photo",
+   "q": "where'd my favorites go",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "photo",
+   "q": "is there an undo",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "photo",
+   "q": "how do i make it look brighter",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "article",
+   "q": "what's this about",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "article",
+   "q": "is there a way to follow this site",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "article",
+   "q": "how do i send this to my mom",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "article",
+   "q": "what's this weird line in the middle",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "article",
+   "q": "who wrote this",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "article",
+   "q": "how long will this take me to read",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "article",
+   "q": "what's the main point",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "article",
+   "q": "can i save this for later",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "article",
+   "q": "what does south pole mean here",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "signin",
+   "q": "how do i get in",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "signin",
+   "q": "i can't remember my password",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "signin",
+   "q": "what goes here",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "signin",
+   "q": "which one's the email box",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "signin",
+   "q": "now what",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "signin",
+   "q": "is my email right",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "signin",
+   "q": "do i need an account for this",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "signin",
+   "q": "what's this number for",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "calculator",
+   "q": "how do i do percentages on this",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "calculator",
+   "q": "where's the equals",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "calculator",
+   "q": "how do i start over",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "calculator",
+   "q": "what's the e thing",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "calculator",
+   "q": "how do i square something",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "calculator",
+   "q": "can this do scientific stuff",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "calculator",
+   "q": "how do i make it simpler",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "calculator",
+   "q": "what's rand do",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "calculator",
+   "q": "how do i put in a decimal",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "preview",
+   "q": "how do i make this bigger",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "preview",
+   "q": "can i draw on this",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "preview",
+   "q": "how do i see it smaller",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "preview",
+   "q": "what's this file",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "preview",
+   "q": "how do i rotate this",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "preview",
+   "q": "where do i add text",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "preview",
+   "q": "can i share this from here",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "disk",
+   "q": "which one is my main drive",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "disk",
+   "q": "how much space do i have",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "disk",
+   "q": "how do i fix my disk",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "disk",
+   "q": "is my drive okay",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "disk",
+   "q": "what's first aid",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "disk",
+   "q": "how do i wipe it",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "disk",
+   "q": "what's apfs",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "disk",
+   "q": "can i split this into two",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "fontbook",
+   "q": "how do i find a font",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "fontbook",
+   "q": "what are all these",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "fontbook",
+   "q": "how do i see it bigger",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "fontbook",
+   "q": "how do i get more fonts",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "fontbook",
+   "q": "why are some grey",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "fontbook",
+   "q": "how do i look at one font",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "fontbook",
+   "q": "close the side thing",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "clock",
+   "q": "stop it",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "clock",
+   "q": "how do i pause",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "clock",
+   "q": "what's this counting",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "clock",
+   "q": "how do i set it for ten minutes",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "clock",
+   "q": "where are my old timers",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "clock",
+   "q": "can i change the sound",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "clock",
+   "q": "how do i get rid of this",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "dictionary",
+   "q": "how do i search a word",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "dictionary",
+   "q": "make the words bigger",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "dictionary",
+   "q": "can i look up in another language",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "dictionary",
+   "q": "how do i go back",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "dictionary",
+   "q": "what's this app for",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "web",
+   "q": "what does this site sell",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "web",
+   "q": "how much is it",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "web",
+   "q": "where do i sign up",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "web",
+   "q": "what's the cheapest one",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "web",
+   "q": "how do i learn more about pro",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "web",
+   "q": "is there a contact page",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "dialog",
+   "q": "what's this popup",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "dialog",
+   "q": "which one do i press",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "dialog",
+   "q": "i don't want to do this",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "dialog",
+   "q": "what happens if i click print",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "dialog",
+   "q": "close this",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "claude",
+   "q": "how do i use this thing",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "claude",
+   "q": "what's detect dev server",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "claude",
+   "q": "where do i type",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "claude",
+   "q": "how do i go to a website in here",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "claude",
+   "q": "what's this globe",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "sort",
+   "q": "how do i sort these",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "sort",
+   "q": "how do i change the order",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "sort",
+   "q": "what are these buttons on top",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "sort",
+   "q": "where's the settings for this",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "icons",
+   "q": "what's the gear do",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "icons",
+   "q": "which one's search",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "icons",
+   "q": "how do i add a new one",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "icons",
+   "q": "where are notifications",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "icons",
+   "q": "what are these little icons",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "files",
+   "q": "how do i delete this",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "files",
+   "q": "get rid of it",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "files",
+   "q": "what's in this",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "files",
+   "q": "how do i rename stuff",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "rename",
+   "q": "change the name",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "rename",
+   "q": "what do these buttons do",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "rename",
+   "q": "how do i make a copy",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "shop",
+   "q": "what can i buy",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "shop",
+   "q": "where do i check out",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "shop",
+   "q": "go back",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "shop",
+   "q": "what's the starter plan",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "download",
+   "q": "what does this want",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "download",
+   "q": "how do i download it",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "download",
+   "q": "cancel it",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "photo",
+   "q": "what's the weather usually like in london",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "photo",
+   "q": "how many grams in a pound",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "photo",
+   "q": "who painted the mona lisa",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "photo",
+   "q": "what's a good name for a dog",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "photo",
+   "q": "how do i boil an egg",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "photo",
+   "q": "what year did the titanic sink",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "article",
+   "q": "how do i make a sourdough starter",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "article",
+   "q": "what's the tallest mountain",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "article",
+   "q": "how many players on a soccer team",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "article",
+   "q": "what's photosynthesis",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "article",
+   "q": "give me a fun fact",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "signin",
+   "q": "what's the speed of light",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "signin",
+   "q": "how do i tie a tie",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "signin",
+   "q": "what's a haiku",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "signin",
+   "q": "what's the square root of 144",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "signin",
+   "q": "when is christmas",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "calculator",
+   "q": "what's the meaning of life",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "calculator",
+   "q": "who's the president of france",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "calculator",
+   "q": "how many continents are there",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "calculator",
+   "q": "what's a black hole",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "calculator",
+   "q": "how do you say thank you in spanish",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "preview",
+   "q": "recommend a good movie",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "preview",
+   "q": "how far is the sun",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "preview",
+   "q": "what's a llama",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "preview",
+   "q": "what does dna stand for",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "preview",
+   "q": "how long should i sleep",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "disk",
+   "q": "what's the best way to learn piano",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "disk",
+   "q": "how do i cook rice",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "disk",
+   "q": "what's an atom",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "disk",
+   "q": "who invented the telephone",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "disk",
+   "q": "what's inflation",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "fontbook",
+   "q": "how many days in a leap year",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "fontbook",
+   "q": "what rhymes with orange",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "fontbook",
+   "q": "what's the capital of australia",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "fontbook",
+   "q": "how do bees make honey",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "clock",
+   "q": "what time zone is new york in",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "clock",
+   "q": "how many minutes in a day",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "clock",
+   "q": "what's a good workout",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "clock",
+   "q": "how do i stop hiccups",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "web",
+   "q": "what's a stock",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "web",
+   "q": "how do planes fly",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "web",
+   "q": "how do i say hello in japanese",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "web",
+   "q": "what's two plus two",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "web",
+   "q": "tell me something cool about octopuses",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "claude",
+   "q": "how do i make pasta",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "claude",
+   "q": "what's the biggest ocean",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "claude",
+   "q": "what is the internet",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "claude",
+   "q": "sing me a song",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "claude",
+   "q": "what's your favourite colour",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "dialog",
+   "q": "what's a good stretch for back pain",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "dialog",
+   "q": "who was einstein",
+   "point": false,
+   "kind": "offscreen"
+  },
+  {
+   "screen": "photo",
+   "q": "what are you",
+   "point": false,
+   "kind": "about",
+   "about": true
+  },
+  {
+   "screen": "photo",
+   "q": "so what do you do exactly",
+   "point": false,
+   "kind": "about",
+   "about": true
+  },
+  {
+   "screen": "photo",
+   "q": "how does this work",
+   "point": null,
+   "kind": "mixed"
+  },
+  {
+   "screen": "photo",
+   "q": "can you do stuff for me",
+   "point": false,
+   "kind": "about",
+   "about": true
+  },
+  {
+   "screen": "claude",
+   "q": "are you chatgpt",
+   "point": false,
+   "kind": "about",
+   "about": true
+  },
+  {
+   "screen": "claude",
+   "q": "what can you help with",
+   "point": false,
+   "kind": "about",
+   "about": true
+  },
+  {
+   "screen": "claude",
+   "q": "do you remember me",
+   "point": false,
+   "kind": "about",
+   "about": true
+  },
+  {
+   "screen": "claude",
+   "q": "is this claude",
+   "point": null,
+   "kind": "screen"
+  },
+  {
+   "screen": "calculator",
+   "q": "can you do the math for me",
+   "point": false,
+   "kind": "about",
+   "about": true
+  },
+  {
+   "screen": "calculator",
+   "q": "how do i talk to you",
+   "point": false,
+   "kind": "about",
+   "about": true
+  },
+  {
+   "screen": "web",
+   "q": "are you listening all the time",
+   "point": false,
+   "kind": "about",
+   "about": true
+  },
+  {
+   "screen": "web",
+   "q": "can you see my screen right now",
+   "point": false,
+   "kind": "about",
+   "about": true
+  },
+  {
+   "screen": "disk",
+   "q": "what's wisp",
+   "point": false,
+   "kind": "about",
+   "about": true
+  },
+  {
+   "screen": "disk",
+   "q": "who are you again",
+   "point": false,
+   "kind": "about",
+   "about": true
+  },
+  {
+   "screen": "photo",
+   "q": "hi",
+   "point": false,
+   "kind": "smalltalk"
+  },
+  {
+   "screen": "photo",
+   "q": "thank you so much",
+   "point": false,
+   "kind": "smalltalk"
+  },
+  {
+   "screen": "photo",
+   "q": "ok cool",
+   "point": false,
+   "kind": "smalltalk"
+  },
+  {
+   "screen": "article",
+   "q": "hello?",
+   "point": false,
+   "kind": "smalltalk"
+  },
+  {
+   "screen": "article",
+   "q": "good night",
+   "point": false,
+   "kind": "smalltalk"
+  },
+  {
+   "screen": "article",
+   "q": "you're awesome",
+   "point": false,
+   "kind": "smalltalk"
+  },
+  {
+   "screen": "calculator",
+   "q": "uh",
+   "point": false,
+   "kind": "smalltalk"
+  },
+  {
+   "screen": "calculator",
+   "q": "sorry wrong button",
+   "point": false,
+   "kind": "smalltalk"
+  },
+  {
+   "screen": "clock",
+   "q": "hey wisp",
+   "point": false,
+   "kind": "smalltalk"
+  },
+  {
+   "screen": "clock",
+   "q": "bye",
+   "point": false,
+   "kind": "smalltalk"
+  },
+  {
+   "screen": "web",
+   "q": "lol",
+   "point": false,
+   "kind": "smalltalk"
+  },
+  {
+   "screen": "web",
+   "q": "great thanks",
+   "point": false,
+   "kind": "smalltalk"
+  },
+  {
+   "screen": "photo",
+   "q": "so um like how do i uh send this to someone",
+   "point": null,
+   "kind": "mixed"
+  },
+  {
+   "screen": "photo",
+   "q": "how do i expert this",
+   "point": null,
+   "kind": "mixed"
+  },
+  {
+   "screen": "photo",
+   "q": "wait where did the crop thing go",
+   "point": null,
+   "kind": "mixed"
+  },
+  {
+   "screen": "calculator",
+   "q": "whats fifteen times twenty on this thing",
+   "point": null,
+   "kind": "mixed"
+  },
+  {
+   "screen": "article",
+   "q": "can you read this to me",
+   "point": null,
+   "kind": "mixed"
+  },
+  {
+   "screen": "article",
+   "q": "tell me about the moon mission",
+   "point": null,
+   "kind": "mixed"
+  },
+  {
+   "screen": "signin",
+   "q": "is this a scam",
+   "point": null,
+   "kind": "mixed"
+  },
+  {
+   "screen": "signin",
+   "q": "what's my code",
+   "point": null,
+   "kind": "mixed"
+  },
+  {
+   "screen": "disk",
+   "q": "my computer is slow what do i do",
+   "point": null,
+   "kind": "mixed"
+  },
+  {
+   "screen": "photo",
+   "q": "what should i do next",
+   "point": null,
+   "kind": "mixed"
+  },
+  {
+   "screen": "preview",
+   "q": "help me with this",
+   "point": null,
+   "kind": "mixed"
+  },
+  {
+   "screen": "fontbook",
+   "q": "is there a keyboard shortcut for this",
+   "point": null,
+   "kind": "mixed"
+  }
+ ]
+}

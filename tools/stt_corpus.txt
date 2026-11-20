@@ -1,0 +1,31 @@
+# utterance | UI terms that must be recognised (case-insensitive)
+Where is the Export button? | Export
+How do I export this as a PDF? | export; PDF
+Open the File menu and click Save As. | File; Save As
+Where do I change the font size in Pages? | font size; Pages
+How do I turn on dark mode? | dark mode
+Show me where the Share button is. | Share
+How do I crop this photo in Preview? | crop; Preview
+Where is the Bluetooth setting in System Settings? | Bluetooth; System Settings
+How do I add a new layer in Photoshop? | layer; Photoshop
+Where is the timeline in DaVinci Resolve? | timeline; DaVinci Resolve
+How do I insert a table in Google Docs? | table; Google Docs
+Where's the Undo button? | Undo
+How do I mute myself in Zoom? | mute; Zoom
+Where do I find the Downloads folder in Finder? | Downloads; Finder
+How do I split the screen in Safari? | split; Safari
+Where is the color picker in Figma? | color picker; Figma
+How do I make a pivot table in Excel? | pivot table; Excel
+Which button starts the recording in QuickTime? | recording; QuickTime
+Where do I set a reminder in the Reminders app? | reminder; Reminders
+How do I rename this file? | rename
+Where is the Sidebar toggle? | Sidebar
+How do I zoom in on this image? | zoom
+Where is the Bold button in Word? | Bold; Word
+How do I change my wallpaper? | wallpaper
+Where is Keychain Access? | Keychain Access
+How do I open Terminal? | Terminal
+Where do I click to commit in Xcode? | commit; Xcode
+How do I add a filter in Lightroom? | filter; Lightroom
+Where is the Render button in Blender? | Render; Blender
+How do I duplicate this slide in Keynote? | duplicate; slide; Keynote

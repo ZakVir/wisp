@@ -1,0 +1,21 @@
+name: Build and test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and test WispKit
+        working-directory: app/Packages/WispKit
+        run: |
+          swift --version
+          swift build
+          swift test

@@ -1,0 +1,24 @@
+.DS_Store
+# Build output
+build/
+DerivedData/
+.build/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+app/Wisp.xcodeproj/
+# Secrets and local data: never commit
+*.env
+.env*
+secrets/
+*.p8
+*.p12
+# Local evaluation data (may contain screen content)
+eval-data/
+tools/out/
+*.pem
+*.key
+*.keychain*
+*eddsa*
+*sparkle*private*
+*.mobileprovision
+*.cer
