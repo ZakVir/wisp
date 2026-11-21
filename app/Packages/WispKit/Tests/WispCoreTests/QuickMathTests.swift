@@ -34,6 +34,16 @@ final class QuickMathTests: XCTestCase {
         XCTAssertNil(QuickMath.answer("how many days until my vacation", now: now, calendar: cal))
     }
 
+    func testDaysUntilDoesNotDependOnTheSystemTimeZone() {
+        // The date text is read in the calendar's zone, whatever zone the Mac (or a CI machine) is set to.
+        let saved = NSTimeZone.default
+        NSTimeZone.default = TimeZone(identifier: "UTC")!
+        defer { NSTimeZone.default = saved }
+        var cal = Calendar(identifier: .gregorian); cal.timeZone = TimeZone(identifier: "America/Chicago")!
+        let now = cal.date(from: DateComponents(year: 2026, month: 10, day: 3, hour: 3))!
+        XCTAssertEqual(QuickMath.answer("how many days until October 4th", now: now, calendar: cal), "1 day, until Sunday, October 4.")
+    }
+
     func testConversions() {
         XCTAssertEqual(QuickMath.answer("convert 5 miles to kilometers"), "5 miles is 8.04672 kilometers.")
         XCTAssertEqual(QuickMath.answer("what's 72 fahrenheit in celsius"), "72 degrees Fahrenheit is 22.2222 degrees Celsius.")

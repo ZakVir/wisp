@@ -168,6 +168,7 @@ public enum QuickMath {
         if let h = holidays[target] { (month, day) = h } else {
             let f = DateFormatter()
             f.locale = Locale(identifier: "en_US_POSIX")
+            f.timeZone = calendar.timeZone   // read the date in the same zone the month and day are taken from below
             let cleaned = target.replacingOccurrences(of: #"(\d+)(st|nd|rd|th)"#, with: "$1", options: .regularExpression)
             var parsed: Date?
             for format in ["MMMM d", "MMM d", "d MMMM", "MMMM d yyyy", "MMMM d, yyyy"] {
